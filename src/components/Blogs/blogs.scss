@@ -1,0 +1,49 @@
+.blogs{
+    margin-top: 550px;
+
+    .blogsWrapper{
+
+        .ourblog{
+            font-size: 35px;
+            text-align: center;
+            font-weight: 600;
+
+        p{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+    }
+
+    .vintageWatch{
+        margin-top: 35px;
+        margin-left: 100px;
+        display: flex;
+        gap: 50px;
+        
+
+        .vintage{
+
+        
+        img{
+            width: 400px;
+            height: 400px;
+        }
+
+        span{
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+    }
+    }
+
+
+    }
+
+}

@@ -1,0 +1,57 @@
+.banner{
+    display: flex;
+    
+    .bannerwrapper{
+
+
+        .bannerDetails{
+            margin-top: 40px;
+            background: url('../../rolex12.jpg');
+            position: absolute;
+            min-width: 100%;
+            min-height: 450px;
+            background-position: center;
+            background-size: cover;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+            h6{
+                color: #D0D4CA;
+                font-size: 14px;
+                font-weight: 600;
+                margin-left: 60px;
+                margin-top: 60px;
+            }
+
+            span{
+                color: #F4DFB6;
+                display: flex;
+                font-size: 40px;
+                font-weight: 600;
+                margin-top: 20px;
+                margin-left: 60px;
+            }
+
+            .btn{
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0 0 60px;
+            }
+            button{
+                border: none;
+                background-color: transparent;
+                color: #F5F5F5;
+                font-size: 18px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+                .Icon{
+                    margin-left: 8px; 
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            
+
+        }
+    }
+}

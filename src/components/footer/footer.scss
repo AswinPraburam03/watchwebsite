@@ -1,0 +1,130 @@
+.footer{
+    margin-top: 50px;
+    background-color: #F0F0F0;
+
+    .footerwrapper{
+        
+        display: flex;
+        flex-direction: column;
+
+        .footerLinks{
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 32px;
+
+            .Locations{
+                color: #040D12;
+                width: 150px;
+                margin: 16px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                color: #fff;
+
+                h2{
+                    color: #040D12;
+                    margin: 20px 0 2px 40px;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+
+                a{
+                    margin: 20px 0 2px 40px;
+                    color: #040D12;
+                    text-decoration: none;
+                }
+
+                .footer-content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 50px;
+                    margin-left: 60px;
+                  
+                  
+                  .email-input {
+                    padding: 8px;
+                    width: 300px;
+                    border: 2px solid #007bff; /* Blue border */
+                    border-radius: 5px;
+                    font-size: 16px;
+                    color: #333; /* Text color */
+                    transition: border-color 0.3s; /* Smooth border transition */
+                  
+                    &::placeholder {
+                      color: #999; /* Placeholder text color */
+                    }
+                  
+                    &:focus {
+                      outline: none;
+                      border-color: #ff7f00; /* Highlight on focus */
+                    }
+                  }
+                  
+                  button {
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                  }
+
+                }
+                  
+                  
+
+                .social{
+                    color: #040D12;
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 300px;
+                    gap: 20px;
+
+                    .Icon{
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+
+    .footerBelow{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row;
+       margin-top: 14px;
+
+       .copyright{
+        margin-left: 400px;
+        font-weight: 600;
+       }
+
+       .terms{
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 30px;
+        
+
+        a{
+            color: #040D12;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+       }
+       
+    }
+
+    
+}

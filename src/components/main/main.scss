@@ -1,0 +1,88 @@
+.main{
+    margin-top: 850px;
+
+    .mainwrapper{
+        margin-left: 80px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+        .mainProduct{
+            display: flex;
+
+            span{
+                font-size: 35px;
+                font-weight: 600;
+
+            }
+
+            p{
+                line-height: 30px;
+                margin-left: 650px;
+            }
+        }
+    }
+
+    .proList{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        row-gap: 80px;
+        margin-right: 80px;
+        
+ 
+
+    .product{
+        width: 300px;
+        text-align: center;
+        padding: 10px 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        margin: 14px 0;
+        margin-left: 50px;
+        margin-top: 20px;
+
+        &:hover{
+            cursor: pointer;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px;
+        }
+
+        img{
+            width: 75%;
+                margin-bottom: 10px;
+                cursor: pointer;
+                
+        }
+
+        .rating{
+            margin-right: 20px;
+            color: rgb(243,181,25);
+
+            span{
+                color: black;
+            }
+        }
+           
+
+                h4{
+                
+                margin: 10px 20px 10px 0;
+
+                }
+                
+        
+
+            .price{
+                margin-bottom: 5px;
+                margin-right: 20px;
+            }
+
+            
+        
+    
+       
+    }
+
+}
+}
